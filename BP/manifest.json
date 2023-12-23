@@ -1,0 +1,59 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"playerhasan1903"
+		]
+	},
+	"header": {
+		"name": "Chest Shop",
+		"description": "by CLOyun Chest Shop",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "b3859bcb-3f61-4650-ad47-e4aabc74f763",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "ed4e3556-a92b-4ce2-b8cc-b6ef69f5e5c1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "b56cff3a-660d-4d08-ad14-0a0e4af57790",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
