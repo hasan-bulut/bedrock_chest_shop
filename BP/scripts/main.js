@@ -1,5 +1,9 @@
-import { world, system, ItemStack } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/server-ui";
+import { JsonDatabase } from "./database";
+
+const db = new JsonDatabase("database");
+db.load();
 
 function createForm(item) {
     const form = new ModalFormData();
