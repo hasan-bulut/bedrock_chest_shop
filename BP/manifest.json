@@ -6,8 +6,8 @@
 		]
 	},
 	"header": {
-		"name": "Chest Shop",
-		"description": "by CLOyun Chest Shop",
+		"name": "pack.name",
+		"description": "pack.description",
 		"min_engine_version": [
 			1,
 			20,

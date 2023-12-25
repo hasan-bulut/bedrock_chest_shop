@@ -1,0 +1,10 @@
+pack.name=Chest Shop RP
+pack.description=Basic Level Chest Shop. You§cTube§f: §lCLOyun
+pazar.olustur=Create Market
+miktar=Amount
+fiyat=Price
+market.basariyla.olusturuldu=§aShop successfully created.
+sadece.sayi.giriniz=§cPlease enter only numbers!
+tum.bosluklari.doldurunuz=§cPlease fill in all the blanks!
+bu.marketi.kiramazsiniz=§cYou cannot break this shop!
+market.kaldirildi=§aShop Removed
