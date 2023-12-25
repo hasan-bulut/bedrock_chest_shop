@@ -85,6 +85,8 @@ world.beforeEvents.chatSend.subscribe(event => {
     } else if (event.message == "getall") {
         event.sender.sendMessage(JSON.stringify(db.get("shops")));
     }
-})function translate(key) {
+})
+
+function translate(key) {
     return { "rawtext": [{ "translate": key }] };
 };
